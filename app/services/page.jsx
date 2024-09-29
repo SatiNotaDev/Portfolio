@@ -39,11 +39,9 @@ const Services = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    // Задержка видимости контента
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 1400); // Настройте эту задержку, чтобы она соответствовала длительности анимации перехода страницы
-
+    }, 1400); 
     return () => clearTimeout(timer);
   }, []);
 

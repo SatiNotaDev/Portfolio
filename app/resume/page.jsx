@@ -35,7 +35,7 @@ const about = {
     { fieldName: "Email", fielValue: "notasati24@gmail.com" },
     { fieldName: "Experience marketing", fielValue: "8+ Years" },
     { fieldName: "Experience development", fielValue: "1+ Years" },
-    { fieldName: "Languages", fielValue: "Fr, Russ, Eng" },
+    { fieldName: "Languages", fielValue: "Fr, Rus, Eng" },
   ],
 };
 
